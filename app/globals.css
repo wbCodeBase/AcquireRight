@@ -3,14 +3,39 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --ar-gray-900: #222222;
+  --ar-gray-700: #424242;
+  --ar-gray-600: #545454;
+  
+  --ar-light-azure: #eef3f6;
+
+  --ar-shadeof-blue: #dad9eb;
+  --ar-shadeof-orange: #ebd8b0;
+  --ar-pastal-gray-cyan: #b5d8d8;
+  --ar-pastal-blue: #b6d0e4;
 }
 
+/* Set a Tailwind token for each variable(It must)  */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+
+  --color-ar-gray-900: var(--ar-gray-900);
+  --color-ar-gray-700: var(--ar-gray-700);
+  --color-ar-gray-600: var(--ar-gray-600);
+  --color-ar-light-azure: var(--ar-light-azure);
+  --color-ar-shadeof-blue: var(--ar-shadeof-blue);
+  --color-ar-shadeof-orange: var(--ar-shadeof-orange);
+  --color-ar-pastal-gray-cyan: var(--ar-pastal-gray-cyan);
+  --color-ar-pastal-blue: var(--ar-pastal-blue);
+
+  --font-sans: var(--font-dm-sans);
   --font-mono: var(--font-geist-mono);
+  --font-nunito-sans: var(--font-nunito-sans);
+  --font-lora: var(--font-lora);
 }
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -20,7 +45,7 @@
 }
 
 body {
-  background: var(--background);
+  /* background: var(--background); */
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-dm-sans);
 }

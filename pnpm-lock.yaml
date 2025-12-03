@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  lucide-react:
+    specifier: ^0.555.0
+    version: 0.555.0(react@19.2.0)
   next:
     specifier: 16.0.6
     version: 16.0.6(@babel/core@7.28.5)(react-dom@19.2.0)(react@19.2.0)
@@ -14,6 +17,9 @@ dependencies:
   react-dom:
     specifier: 19.2.0
     version: 19.2.0(react@19.2.0)
+  react-icons:
+    specifier: ^5.5.0
+    version: 5.5.0(react@19.2.0)
 
 devDependencies:
   '@tailwindcss/postcss':
@@ -2665,6 +2671,14 @@ packages:
     dependencies:
       yallist: 3.1.1
 
+  /lucide-react@0.555.0(react@19.2.0):
+    resolution: {integrity: sha512-D8FvHUGbxWBRQM90NZeIyhAvkFfsh3u9ekrMvJ30Z6gnpBHS6HC6ldLg7tL45hwiIz/u66eKDtdA23gwwGsAHA==}
+    peerDependencies:
+      react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    dependencies:
+      react: 19.2.0
+    dev: false
+
   /magic-string@0.30.21:
     resolution: {integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==}
     dependencies:
@@ -2957,6 +2971,14 @@ packages:
     dependencies:
       react: 19.2.0
       scheduler: 0.27.0
+    dev: false
+
+  /react-icons@5.5.0(react@19.2.0):
+    resolution: {integrity: sha512-MEFcXdkP3dLo8uumGI5xN3lDFNsRtrjbOEKDLD7yv76v4wpnEq2Lt2qeHaQOr34I/wPN3s3+N08WkQ+CW37Xiw==}
+    peerDependencies:
+      react: '*'
+    dependencies:
+      react: 19.2.0
     dev: false
 
   /react-is@16.13.1:
