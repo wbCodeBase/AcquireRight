@@ -9,6 +9,7 @@
   --ar-gray-600: #545454;
   
   --ar-light-azure: #eef3f6;
+  --ar-shadeof-azure: #dee4e8;
 
   --ar-shadeof-blue: #dad9eb;
   --ar-shadeof-orange: #ebd8b0;
@@ -25,6 +26,7 @@
   --color-ar-gray-700: var(--ar-gray-700);
   --color-ar-gray-600: var(--ar-gray-600);
   --color-ar-light-azure: var(--ar-light-azure);
+  --color-ar-shadeof-azure: var(--ar-shadeof-azure);
   --color-ar-shadeof-blue: var(--ar-shadeof-blue);
   --color-ar-shadeof-orange: var(--ar-shadeof-orange);
   --color-ar-pastal-gray-cyan: var(--ar-pastal-gray-cyan);
