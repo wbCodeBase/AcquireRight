@@ -22,11 +22,11 @@ const FourthSection = () => {
 
                 {/* Owl Image - Responsive Positioning */}
                 <Image 
-                    className='absolute w-36 h-auto  xl:w-[150px]
+                    className='absolute w-36 h-auto  xl:w-[200px]
                                bottom-4 right-4 
                                sm:bottom-6 sm:right-6 
-                               md:bottom-8 md:right-8 
-                               lg:bottom-14 lg:right-12' 
+                               md:bottom-8 md:right-10 
+                               lg:bottom-14 lg:right-14' 
                     src={owlImg} 
                     width={150} 
                     height={250} 

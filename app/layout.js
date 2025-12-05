@@ -1,6 +1,5 @@
 import { Nunito_Sans, DM_Sans, Lora } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header";
 
 const nunitoSans = Nunito_Sans({
   subsets: ["latin"],
@@ -31,7 +30,6 @@ export default function RootLayout({ children }) {
         // className={`${nunitoSans.className} ${dmSans.className} ${lora.className} antialiased`}
         className={`${nunitoSans.variable} ${dmSans.variable} ${lora.variable} antialiased`}
       >
-        <Header />
         {children}
       </body>
     </html>
