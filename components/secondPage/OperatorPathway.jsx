@@ -21,13 +21,13 @@ export default function OperatorPathway() {
                             Discover your natural leadership instincts, decision-making style, and the environments where you thrive.
                         </p>
 
-                        <div className="flex items-center flex-wrap justify-start gap-3">
+                        <div className="flex items-center flex-wrap md:flex-nowrap justify-start gap-3">
                             <div className="flex1">
                                 <p className="text-sm sm:text-md font-medium leading-tight text-gray-900 bg-[#eef3f6] p-4 rounded-2xl">
                                     <span className="font-bold">Tool:</span> Operator Fit Scoring Tool — Instantly assess how well a business fits your leadership style.
                                 </p>
                             </div>
-                            <button className="flex-shrink-0 flex items-center gap-2 bg-ar-gray-600 hover:bg-gray-800 text-white p-1.5 pr-6  rounded-full text-lg font-medium transition-colors">
+                            <button className="shrink-0 flex items-center gap-2 bg-ar-gray-600 hover:bg-gray-800 text-white p-1.5 pr-6  rounded-full text-lg font-medium transition-colors">
                                 <div className="p-2 bg-white rounded-full flex items-center justify-center">
                                     <FaPlay className='text-ar-gray-600 h-6 w-6' />
                                 </div>
@@ -50,7 +50,7 @@ export default function OperatorPathway() {
 
 
 
-                        <div className="flex items-center flex-wrap justify-start gap-3">
+                        <div className="flex items-center flex-wrap md:flex-nowrap justify-start gap-3">
                             <div className="flex1">
                                 <p className="text-sm sm:text-md font-medium leading-tight text-gray-900 bg-[#eef3f6] p-4 rounded-2xl">
                                     <span className="font-bold">Tool:</span> Operator Fit Scoring Tool — Instantly assess how well a business fits your leadership style.
@@ -77,7 +77,7 @@ export default function OperatorPathway() {
                             Discover your natural leadership instincts, decision-making style, and the environments where you thrive.
                         </p>
 
-                        <div className="flex items-center flex-wrap justify-start gap-3">
+                        <div className="flex items-center flex-wrap md:flex-nowrap justify-start gap-3">
                             <div className="flex1">
                                 <p className="text-sm sm:text-md font-medium leading-tight text-gray-900 bg-[#eef3f6] p-4 rounded-2xl">
                                     <span className="font-bold">Tool:</span> Operator Fit Scoring Tool — Instantly assess how well a business fits your leadership style.
