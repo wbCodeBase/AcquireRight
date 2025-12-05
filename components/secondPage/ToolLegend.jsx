@@ -46,7 +46,7 @@ export default function ToolLegend() {
               {/* Dot */}
               <div
                 className={cn(
-                  "w-3 md:w-4 h-3 md:h-4 rounded-full flex-shrink-0 transition-colors",
+                  "w-3 md:w-4 h-3 md:h-4 rounded-full shrink-0 transition-colors",
                   currentSection === item.slug ? "bg-gray-600" : "bg-gray-400",
                 )}
               />
@@ -68,7 +68,7 @@ export default function ToolLegend() {
       </div>
 
       {/* Legend Items Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  max-w-7xl mx-auto  gap-6 md:gap-4 px-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-ar-gray-700 max-w-7xl mx-auto  gap-6 md:gap-4 px-4">
         {legendData.map((section) => {
           const isActive = currentSection === section.slug
 

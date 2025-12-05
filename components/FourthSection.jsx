@@ -6,7 +6,7 @@ import owlImg from '@/public/images/owl.svg'
 const FourthSection = () => {
     return (
         <>
-            <section className='bg-ar-shadeof-azure relative overflow-hidden'>
+            <section className='bg-ar-shadeof-azure relative overflow-hidden text-ar-gray-700'>
 
                 <div className='p-8 sm:p-10 md:p-16 lg:p-20 max-w-7xl mx-auto flex flex-col gap-4 sm:gap-5 lg:gap-4'>
                     <div className='text-base sm:text-lg md:text-xl lg:text-2xl max-w-5xl leading-relaxed sm:leading-relaxed md:leading-snug lg:leading-tight pr-0 sm:pr-8 md:pr-12 lg:pr-0'>
