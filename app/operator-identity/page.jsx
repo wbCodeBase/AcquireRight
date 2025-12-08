@@ -4,11 +4,12 @@ import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 
 
-import heroImg from "@/public/images/heroImage.svg";
 import OperatorPathway from '@/components/secondPage/OperatorPathway';
 import ThisPathway from '@/components/secondPage/ThisPathway';
 import FourthSection from '@/components/FourthSection';
 import ToolLegend from '@/components/secondPage/ToolLegend';
+import Image from 'next/image';
+import barsHat from "@/public/images/barsHat.svg"
 
 const menuItems = [
     { title: 'Home', slug: '/', hasSubmenu: false },
@@ -56,9 +57,6 @@ const OperatorIdentity = () => {
     const closeMobileMenu = () => {
         setIsMobileMenuOpen(false)
     }
-
-
-
 
 
 
@@ -169,31 +167,8 @@ const OperatorIdentity = () => {
                     </h1>
 
                     <div className="flex gap-6 items-start">
-                        <div className="flex-shrink-0">
-                            <svg
-                                width="60"
-                                height="60"
-                                viewBox="0 0 60 60"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="text-gray-700"
-                            >
-                                <path
-                                    d="M20 15h20v30H20z"
-                                    fill="currentColor"
-                                />
-                                <path
-                                    d="M15 12h30v3H15z"
-                                    fill="currentColor"
-                                />
-                                <ellipse
-                                    cx="30"
-                                    cy="13.5"
-                                    rx="18"
-                                    ry="3"
-                                    fill="currentColor"
-                                />
-                            </svg>
+                        <div className="shrink-0">
+                            <Image src={barsHat} alt='piller' height={50} width={50} />
                         </div>
 
                         <p className="text-gray-700 text-lg leading-relaxed">
@@ -214,8 +189,6 @@ const OperatorIdentity = () => {
 
 
             <ToolLegend />
-
-
 
 
 

@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 import checklist from "@/public/images/checklist.png";
 import chemAtom from "@/public/images/chemAtom.png";
-import sandtimer from "@/public/images/sandtimer.png";
+import sandtimer from "@/public/images/sandTimer.svg";
 
 
 
@@ -11,7 +11,7 @@ const featuresData = [
     {
         id: 1,
         title: "Saves You Time",
-        image: checklist,
+        image: sandtimer,
         imagePosition: "left",
         points: [
             "Discover your natural leadership instincts, decision-making style and the environments where you thrive.",
