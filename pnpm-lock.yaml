@@ -15,10 +15,10 @@ dependencies:
     specifier: 16.0.6
     version: 16.0.6(@babel/core@7.28.5)(react-dom@19.2.0)(react@19.2.0)
   react:
-    specifier: 19.2.0
+    specifier: ^19.0.1
     version: 19.2.0
   react-dom:
-    specifier: 19.2.0
+    specifier: ^19.0.1
     version: 19.2.0(react@19.2.0)
   react-icons:
     specifier: ^5.5.0
