@@ -58,7 +58,7 @@ export default function ToolLegend() {
   return (
     <div className="w-full rounded-lg bg-[#eef3f6] p-6 md:p-12">
       {/* Title */}
-      <h2 className="text-center text-xl md:text-2xl font-bold text-foreground mb-6 md:mb-8">TOOL LEGEND</h2>
+      <h2 className="text-center text-xl md:text-2xl text-ar-gray-900 font-bold mb-6 md:mb-8">TOOL LEGEND</h2>
 
       {/* Timeline Progress Indicator */}
       <div className="flex justify-center items-center mb-8 md:mb-12 px-4">
@@ -103,7 +103,7 @@ export default function ToolLegend() {
               <h3
                 className={cn(
                   "font-bold text-base md:text-2xl mb-3 transition-colors",
-                  isActiveSection ? "text-foreground" : "text-gray-400",
+                  isActiveSection ? "text-ar-gray-700" : "text-gray-400",
                 )}
               >
                 {section.title}:
@@ -122,7 +122,7 @@ export default function ToolLegend() {
                       key={item.slug}
                       className={cn(
                         "text-md md:text-xl transition-colors flex items-start",
-                        isItemActive ? "text-foreground" : "text-gray-400",
+                        isItemActive ? "text-ar-gray-700" : "text-gray-400",
                         isItemDisabled && "opacity-40"
                       )}
                     >
@@ -185,7 +185,7 @@ export default function ToolLegend() {
 //   return (
 //     <div className="w-full rounded-lg bg-[#eef3f6] p-6 md:p-12">
 //       {/* Title */}
-//       <h2 className="text-center text-xl md:text-2xl font-bold text-foreground mb-6 md:mb-8">TOOL LEGEND</h2>
+//       <h2 className="text-center text-xl md:text-2xl font-bold text-ar-gray-700 mb-6 md:mb-8">TOOL LEGEND</h2>
 
 //       {/* Timeline Progress Indicator */}
 //       <div className="flex justify-center items-center mb-8 md:mb-12 px-4">
@@ -230,7 +230,7 @@ export default function ToolLegend() {
 //               <h3
 //                 className={cn(
 //                   "font-bold text-base md:text-2xl mb-3 transition-colors",
-//                   isActive ? "text-foreground" : "text-gray-400",
+//                   isActive ? "text-ar-gray-700" : "text-gray-400",
 //                 )}
 //               >
 //                 {section.title}:
@@ -243,7 +243,7 @@ export default function ToolLegend() {
 //                     key={item}
 //                     className={cn(
 //                       "text-md md:text-xl transition-colors flex items-start",
-//                       isActive ? "text-foreground" : "text-gray-400",
+//                       isActive ? "text-ar-gray-700" : "text-gray-400",
 //                     )}
 //                   >
 //                     <span className="mr-3 flex-shrink-0">•</span>
