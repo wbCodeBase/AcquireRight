@@ -162,16 +162,16 @@ const OperatorIdentity = () => {
                         PILLAR 1 · OPERATOR IDENTITY
                     </p>
 
-                    <h1 className="lg:text-4xl text-3xl text-ar-gray-700 font-semibold mb-12 leading-tight">
+                    <h1 className="lg:text-4xl text-3xl text-[#3b3a3d] font-bold mb-12 leadingtight">
                         Build the clarity to choose a business <br /> you can actually lead.
                     </h1>
 
                     <div className="flex gap-6 items-start">
                         <div className="shrink-0">
-                            <Image src={barsHat} alt='piller' height={50} width={50} />
+                            <Image src={barsHat} alt='piller' height={55} width={55} />
                         </div>
 
-                        <p className="text-gray-700 text-lg leading-relaxed">
+                        <p className="text-gray-700 text-lg leading-tight">
                             This pillar helps you understand who you are as an operator, how you prefer to work, and which kinds of businesses fit your strengths—so your search stays focused on deals you can run confidently for the long term.
                         </p>
                     </div>

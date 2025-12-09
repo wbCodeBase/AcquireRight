@@ -90,7 +90,7 @@ export default function ToolLegend() {
       </div>
 
       {/* Legend Items Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-ar-gray-700 max-w-7xl mx-auto gap-6 md:gap-4 px-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-ar-gray-700 max-w-5xl mx-auto gap-6 md:gap-4 px-4">
         {legendData.map((section) => {
           const isActiveSection = currentSection === section.slug
 

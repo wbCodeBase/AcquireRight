@@ -147,7 +147,7 @@ const sdeCalcu = () => {
 
 
 
-            <section className="bg-[#f8f8f8] relative p-4 sm:p-6 lg:p-16">
+            <section className="bg-[#f8f8f8] relative p-4 sm:p-6 lg:p-16 overflow-hidden">
                 <div className=" max-w-4xl mx-auto">
                     <h1 className="text-2xl sm:text-3xl font-bold text-ar-gray-700 mb-6 sm:mb-8">
                         SDE Calculator
@@ -170,7 +170,7 @@ const sdeCalcu = () => {
                                     <li>Industry Fit</li>
                                 </ul>
 
-                                <p className="leading-relaxed">
+                                <p className="leading-tight">
                                     Together they give you the complete information to build your Buy Box. To create your Buy Box, use the GPTs in the following order: 1- CEO Profile Match, 2- Industry Fit, 3- SDE Calculator.
                                 </p>
 
@@ -185,7 +185,7 @@ const sdeCalcu = () => {
                                 Why Use <span className='text-[#40588a]'> The SDE Calculator </span>
                             </h2>
 
-                            <p className="leading-relaxed text-lg sm:text-xl text-gray-600">
+                            <p className="leading-tight text-lg sm:text-xl text-gray-600">
                                 The calculator trains your brain to think like an acquisition entrepreneur. You learn to connect industry economics, extraction rates, debt structure, and your personal income goals into one coherent framework. Over time, you stop seeing SDE as a random number and start understanding the underlying levers — improving your deal judgment, your financial intuition, and your overall operator IQ. (Bhushan, you asked Ai- how it saves you time, levels up your skills, screens and score deals. Then you took the output and decided what to use. Basically giving a little bit of context and benefits before getting into the video.
                             </p>
 
@@ -211,7 +211,7 @@ const sdeCalcu = () => {
                             </h2>
 
 
-                            <p className="leading-relaxed text-lg sm:text-xl text-gray-600">
+                            <p className="leading-tight text-lg sm:text-xl text-gray-600">
                                 A step-by-step visual walkthrough of using this tool
                             </p>
 
@@ -239,7 +239,7 @@ const sdeCalcu = () => {
                             </h2>
 
 
-                            <p className="leading-relaxed text-lg sm:text-xl text-gray-600">
+                            <p className="leading-tight text-lg sm:text-xl text-gray-600">
                                 A step-by-step visual walkthrough of using this tool
                             </p>
 
