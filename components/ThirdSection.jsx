@@ -214,17 +214,17 @@ export default function ThirdSection() {
               </div>
 
               {/* Content Area */}
-              <div className="p-4 sm:p-6 pt-8 sm:pt-12 md:pt-14 pb-8 sm:pb-10 md:pb-12">
+              <div className="py-4 pt-8 sm:pt-12 md:pt-14 pb-8 sm:pb-10 md:pb-12">
                 {/* Description */}
-                <p className="text-base sm:text-lg text-center font-bold text-ar-gray-700 mb-4 leading-relaxed">
+                <p className="text-base sm:text-md text-center font-bold text-ar-gray-700 mb-4 leading-relaxed">
                   {card.description}
                 </p>
 
                 {/* Bullet Points */}
-                <ul className="space-y-2 text-sm sm:text-base md:text-lg mb-4 sm:mb-6 px-4 sm:px-6 md:px-10">
+                <ul className="space-y-2 text-sm sm:text-base md:text-md mb-4 sm:mb-6 px-4 sm:px-6 md:px-10">
                   {card.points.map((point, idx) => (
-                    <li key={idx} className="text-ar-gray-700 flex items-start gap-2">
-                      <span className="text-[#666] mt-1">•</span>
+                    <li key={idx} className="text-ar-gray-700 flex items-center gap-2">
+                      <span className="text-ar-gray-700 text-2xl mt-1">•</span>
                       <span>{point}</span>
                     </li>
                   ))}

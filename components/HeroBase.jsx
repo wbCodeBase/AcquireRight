@@ -67,7 +67,7 @@ const HeaderBase = () => {
                         </div>
                     </div>
 
-                    <div className='h-48 sm:h-64 md:h-80 lg:h-[30rem] bg-gray-100 max-w-4xl mx-auto mt-10 sm:mt-14 lg:mt-20 rounded-lg'>
+                    <div className='h-48 sm:h-64 md:h-80 lg:h-[30rem] bg-[#d9d9d9] max-w-4xl mx-auto mt-10 sm:mt-14 lg:mt-20 rounded-lg'>
 
                     </div>
 
