@@ -5,7 +5,7 @@ import { FaPlay } from "react-icons/fa";
 export default function OperatorPathway() {
     return (
         <div className="bg-[#f8f8f8] p-4 sm:p-6 lg:p-16">
-            <div className="max-w-5xl mx-auto">
+            <div className="max-w-4xl mx-auto">
                 <h1 className="text-2xl sm:text-3xl font-bold text-ar-gray-700 mb-6 sm:mb-8">
                     Operator Identity Pathway
                 </h1>

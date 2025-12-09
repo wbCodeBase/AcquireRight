@@ -58,11 +58,11 @@ const sdeCalcu = () => {
         <>
 
             <header className={`bg-white font-nunito-sans sm:sticky sm:top-0 left-0 w-full z-40`}>
-                <div className="sm:max-w-7xl w-full mx-auto">
+                <div className="sm:max-w-5xl w-full mx-auto">
                     <div className={`text-[#222222] flex items-center justify-between transition-all duration-300 ${isScrolled ? "lg:px-3 pt-3" : "lg:px-10 pt-10"} p-4`}>
                         <Link href="/" className="flex items-center py2 text-3xl md:text-4xl z-50">
                             <span className='font-bold'>Acquire</span>Right
-                        </Link>
+                        </Link> 
 
                         {/* Desktop Navigation */}
                         <nav className="hidden lg:flex space-x-8 items-center">
@@ -145,10 +145,8 @@ const sdeCalcu = () => {
 
 
 
-
-
             <section className="bg-[#f8f8f8] p-4 sm:p-6 lg:p-16">
-                <div className="max-w-5xl mx-auto">
+                <div className=" max-w-4xl mx-auto">
                     <h1 className="text-2xl sm:text-3xl font-bold text-ar-gray-700 mb-6 sm:mb-8">
                         SDE Calculator
                     </h1>

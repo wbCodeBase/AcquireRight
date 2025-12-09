@@ -67,7 +67,7 @@ const OperatorIdentity = () => {
 
 
             <header className={`bg-white font-nunito-sans sm:sticky sm:top-0 left-0 w-full z-40`}>
-                <div className="sm:max-w-7xl w-full mx-auto">
+                <div className="sm:max-w-5xl w-full mx-auto">
                     <div className={`text-[#222222] flex items-center justify-between transition-all duration-300 ${isScrolled ? "lg:px-3 pt-3" : "lg:px-10 pt-10"} p-4`}>
                         <Link href="/" className="flex items-center py2 text-3xl md:text-4xl z-50">
                             <span className='font-bold'>Acquire</span>Right
@@ -157,12 +157,12 @@ const OperatorIdentity = () => {
 
             <div className="bg-ar-shadeof-blue flex items-center justify-center p-8">
                 {/* <div className="max-w-4xl w-full"> */}
-                <div className="container mx-auto max-w-5xl py-8 sm:py-12 md:py-18">
+                <div className="container mx-auto sm:max-w-4xl py-8 sm:py-12 md:py-18">
                     <p className="text-sm uppercase tracking-wider text-gray-700 mb-6">
                         PILLAR 1 · OPERATOR IDENTITY
                     </p>
 
-                    <h1 className="font-lora lg:text-4xl text-3xl text-ar-gray-700 font-semibold mb-12 leading-tight">
+                    <h1 className="lg:text-4xl text-3xl text-ar-gray-700 font-semibold mb-12 leading-tight">
                         Build the clarity to choose a business you can actually lead.
                     </h1>
 
@@ -185,12 +185,7 @@ const OperatorIdentity = () => {
             <ThisPathway />
 
 
-
-
-
             <ToolLegend />
-
-
 
 
             <FourthSection />
