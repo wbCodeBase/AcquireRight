@@ -5,7 +5,9 @@ import ToolLegend from '@/components/secondPage/ToolLegend';
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { FaPlay } from "react-icons/fa";
-
+import sandTimerPng from "@/public/images/sandTimerPng.png"
+import checklist from "@/public/images/checklist.svg"
+import Image from 'next/image';
 
 const sdeCalcu = () => {
 
@@ -62,7 +64,7 @@ const sdeCalcu = () => {
                     <div className={`text-[#222222] flex items-center justify-between transition-all duration-300 ${isScrolled ? "lg:px-3 pt-3" : "lg:px-10 pt-10"} p-4`}>
                         <Link href="/" className="flex items-center py2 text-3xl md:text-4xl z-50">
                             <span className='font-bold'>Acquire</span>Right
-                        </Link> 
+                        </Link>
 
                         {/* Desktop Navigation */}
                         <nav className="hidden lg:flex space-x-8 items-center">
@@ -145,16 +147,18 @@ const sdeCalcu = () => {
 
 
 
-            <section className="bg-[#f8f8f8] p-4 sm:p-6 lg:p-16">
+            <section className="bg-[#f8f8f8] relative p-4 sm:p-6 lg:p-16">
                 <div className=" max-w-4xl mx-auto">
                     <h1 className="text-2xl sm:text-3xl font-bold text-ar-gray-700 mb-6 sm:mb-8">
                         SDE Calculator
                     </h1>
 
+                    <Image src={sandTimerPng} alt='sandTimer' className='absolute -right-15' />
+
                     <div className="space-y-6 text-ar-gray-700">
 
                         {/* First Card */}
-                        <div className="bg-white rounded-xl border border-gray-300 md:p-10 p-6 shadow-sm">
+                        <div className="bg-white rounded-xl border border-gray-300 md:p-10 p-6 shadow-sm z-10 relative">
                             <h2 className="text-xl sm:text-2xl  font-bold mb-3">
                                 <span className='text-[#40588a]'> The SDE Calculator </span>can be used together with:
                             </h2>
@@ -185,7 +189,10 @@ const sdeCalcu = () => {
                                 The calculator trains your brain to think like an acquisition entrepreneur. You learn to connect industry economics, extraction rates, debt structure, and your personal income goals into one coherent framework. Over time, you stop seeing SDE as a random number and start understanding the underlying levers — improving your deal judgment, your financial intuition, and your overall operator IQ. (Bhushan, you asked Ai- how it saves you time, levels up your skills, screens and score deals. Then you took the output and decided what to use. Basically giving a little bit of context and benefits before getting into the video.
                             </p>
 
-                            <div className='relative h-48 sm:h-64 md:h-80 lg:h-[30rem] bg-gray-100 max-w-4xl mx-auto mt-10  rounded-lg'>
+                            <div className='relative flex justify-center items-center h-48 sm:h-64 md:h-80 lg:h-[30rem] bg-[#eef3f6] max-w-4xl mx-auto mt-10  rounded-lg'>
+
+                                <Image src={checklist} height={250} width={250} alt="play video image" />
+
                                 <button className="absolute bottom-5 right-5 shrink-0 flex items-center gap-2 bg-ar-gray-600 hover:bg-gray-800 text-white p-1.5 pr-6  rounded-full text-lg font-medium transition-colors">
                                     <div className="p-2 bg-white rounded-full flex items-center justify-center">
                                         <FaPlay className='text-ar-gray-600 h-6 w-6' />
@@ -210,7 +217,10 @@ const sdeCalcu = () => {
 
 
 
-                            <div className='relative h-48 sm:h-64 md:h-80 lg:h-[30rem] bg-gray-100 max-w-4xl mx-auto mt-10  rounded-lg'>
+                            <div className='relative flex justify-center items-center h-48 sm:h-64 md:h-80 lg:h-[30rem] bg-[#eef3f6] max-w-4xl mx-auto mt-10  rounded-lg'>
+
+                                <Image src={checklist} height={250} width={250} alt="play video image" className='' />
+
                                 <button className="absolute bottom-5 right-5 shrink-0 flex items-center gap-2 bg-ar-gray-600 hover:bg-gray-800 text-white p-1.5 pr-6  rounded-full text-lg font-medium transition-colors">
                                     <div className="p-2 bg-white rounded-full flex items-center justify-center">
                                         <FaPlay className='text-ar-gray-600 h-6 w-6' />
@@ -235,7 +245,11 @@ const sdeCalcu = () => {
 
 
 
-                            <div className='relative h-48 sm:h-64 md:h-80 lg:h-[30rem] bg-gray-100 max-w-4xl mx-auto mt-10  rounded-lg'>
+                            <div className='relative  flex justify-center items-center h-48 sm:h-64 md:h-80 lg:h-[30rem] bg-[#eef3f6] max-w-4xl mx-auto mt-10  rounded-lg'>
+
+                                <Image src={checklist} height={250} width={250} alt="play video image" />
+
+
                                 <button className="absolute bottom-5 right-5 shrink-0 flex items-center gap-2 bg-ar-gray-600 hover:bg-gray-800 text-white p-1.5 pr-6  rounded-full text-lg font-medium transition-colors">
                                     <div className="p-2 bg-white rounded-full flex items-center justify-center">
                                         <FaPlay className='text-ar-gray-600 h-6 w-6' />
