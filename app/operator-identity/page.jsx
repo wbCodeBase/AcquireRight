@@ -163,7 +163,7 @@ const OperatorIdentity = () => {
                     </p>
 
                     <h1 className="lg:text-4xl text-3xl text-ar-gray-700 font-semibold mb-12 leading-tight">
-                        Build the clarity to choose a business you can actually lead.
+                        Build the clarity to choose a business <br /> you can actually lead.
                     </h1>
 
                     <div className="flex gap-6 items-start">

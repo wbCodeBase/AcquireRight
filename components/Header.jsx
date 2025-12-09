@@ -54,8 +54,8 @@ export default function Header() {
 
   return (
     <header className={`${isScrolled ? "bg-gradient-to-r from-[#fffafa] to-[#e8e0e0]" : "bg-gradient-to-r from-[#fffafa] to-[#e8e0e0]"} font-nunito-sans sm:sticky sm:top-0 left-0 w-full z-40`}>
-      <div className="sm:max-w-7xl w-full mx-auto">
-        <div className={`text-[#222222] flex items-center justify-between transition-all duration-300 ${isScrolled ? "lg:p-3" : "lg:p-10"} p-4`}>
+      <div className="sm:max-w-5xl w-full mx-auto">
+        <div className={`text-[#222222] flex items-center justify-between transition-all duration-300 ${isScrolled ? "lg:p-3" : "lg:p-7"} p-4`}>
           <Link href="/" className="flex items-center py-2 text-3xl md:text-4xl z-50">
             <span className='font-bold'>Acquire</span>Right
           </Link>

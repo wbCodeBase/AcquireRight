@@ -18,14 +18,14 @@ const HeroSection = () => {
   return (
     <>
       <section className="bg-gradient-to-r from-[#fffafa] to-[#e8e0e0] text-white">
-        <div className="container mx-auto max-w-6xl w-11/12 py-8 sm:py-12 md:py-16 lg:py-20">
-          <div className="flex flex-col lg:flex-row items-center justify-center">
+        <div className="container mx-auto sm:max-w-5xl py-8 sm:py-12 md:py-16">
+          <div className="flex flex-col lg:flex-row items-center justify-between">
 
             {/* Text Content */}
             <div className="w-full px-4 sm:px-6 lg:px-8">
               <div className="text-center lg:text-left">
 
-                <h1 className="text-3xl lg:text-4xl my2 font-lora text-ar-gray-700 leading-tight">{heroSectionData.title}</h1>
+                <h1 className="text-2xl lg:text-3xl my2 font-lora text-ar-gray-700 leading-tight">{heroSectionData.title}</h1>
 
               </div>
             </div>
