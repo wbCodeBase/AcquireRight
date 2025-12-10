@@ -177,12 +177,12 @@ export default function ToolLegend() {
                       <li
                         key={item.slug}
                         className={cn(
-                          "text-md md:text-lg transition-colors flex items-start",
+                          "text-md md:text-lg transition-colors flex items-center",
                           isItemActive ? "text-ar-gray-900" : "text-gray-400",
                           isItemDisabled && "opacity-40"
                         )}
                       >
-                        <span className="mr-3 shrink-0">•</span>
+                        <span className="mr-2 text-2xl shrink-0">•</span>
                         <span>{item.name}</span>
                       </li>
                     )
