@@ -7,6 +7,8 @@ import React, { useEffect, useState } from 'react'
 import { FaPlay } from "react-icons/fa";
 import sandTimerPng from "@/public/images/sandTimerPng.png"
 import checklist from "@/public/images/checklist.svg"
+import compass from "@/public/images/compass.png"
+import pc from "@/public/images/pc.png"
 import Image from 'next/image';
 
 const sdeCalcu = () => {
@@ -61,8 +63,8 @@ const sdeCalcu = () => {
 
             <header className={`bg-white font-nunito-sans sm:sticky sm:top-0 left-0 w-full z-40`}>
                 <div className="sm:max-w-5xl w-full mx-auto">
-                    <div className={`text-[#222222] flex items-center justify-between transition-all duration-300 ${isScrolled ? "lg:px-3 pt-3" : "lg:px-10 pt-10"} p-4`}>
-                        <Link href="/" className="flex items-center py2 text-3xl md:text-4xl z-50">
+                    <div className={`text-[#222222] flex items-center justify-between transition-all duration-300 lg:pt-10 px-10 p-2`}>
+                        <Link href="/" className="flex items-center py-2 text-3xl md:text-4xl z-50">
                             <span className='font-bold'>Acquire</span>Right
                         </Link>
 
@@ -153,13 +155,13 @@ const sdeCalcu = () => {
                         SDE Calculator
                     </h1>
 
-                    <Image src={sandTimerPng} alt='sandTimer' className='absolute -right-15' />
+                    <Image src={sandTimerPng} alt='sandTimer' className='absolute right-20 top-54' />
 
-                    <div className="space-y-6 text-ar-gray-700">
+                    <div className="space-y-12 text-ar-gray-700">
 
                         {/* First Card */}
-                        <div className="bg-white rounded-xl border border-gray-300 md:p-10 p-6 shadow-sm z-10 relative">
-                            <h2 className="text-xl sm:text-2xl  font-bold mb-3">
+                        <div className="bg-white rounded-xl border border-gray-300 md:px-10 py-4 p-6 shadow-sm z-10 relative">
+                            <h2 className="text-xl sm:text-2xl font-bold mb-3">
                                 <span className='text-[#40588a]'> The SDE Calculator </span>can be used together with:
                             </h2>
 
@@ -180,8 +182,17 @@ const sdeCalcu = () => {
 
 
                         {/* 2nd Card */}
-                        <div className="bg-white rounded-xl border border-gray-300 md:p-10 p-6 shadow-sm">
+                        <div className="bg-white rounded-xl border border-gray-300 md:p-10 p-6 z-10 relative shadow-sm">
                             <h2 className="text-xl sm:text-2xl  font-bold mb-3">
+                                What does <span className='text-[#40588a]'> The SDE Calculator </span> Do?
+                            </h2>
+
+                            <p className="leading-tight text-lg sm:text-xl text-gray-600 mb-10">
+                                The SDE Calculator is a precision tool that translates your income goals and industry context into a clear, personalized SDE target. It shows you exactly what level of earnings a business must have to make financial sense for you — helping you filter, evaluate, and pursue deals with confidence.
+                            </p>
+
+
+                            <h2 className="text-xl sm:text-2xl font-bold mb-3">
                                 Why Use <span className='text-[#40588a]'> The SDE Calculator </span>
                             </h2>
 
@@ -189,9 +200,11 @@ const sdeCalcu = () => {
                                 The calculator trains your brain to think like an acquisition entrepreneur. You learn to connect industry economics, extraction rates, debt structure, and your personal income goals into one coherent framework. Over time, you stop seeing SDE as a random number and start understanding the underlying levers — improving your deal judgment, your financial intuition, and your overall operator IQ. (Bhushan, you asked Ai- how it saves you time, levels up your skills, screens and score deals. Then you took the output and decided what to use. Basically giving a little bit of context and benefits before getting into the video.
                             </p>
 
+
+
                             <div className='relative flex justify-center items-center h-48 sm:h-64 md:h-80 lg:h-[30rem] bg-[#eef3f6] max-w-4xl mx-auto mt-10  rounded-lg'>
 
-                                <Image src={checklist} height={250} width={250} alt="play video image" />
+                                <Image src={compass} height={250} width={250} alt="play video image" />
 
                                 <button className="absolute bottom-5 right-5 shrink-0 flex items-center gap-2 bg-ar-gray-600 hover:bg-gray-800 text-white p-1.5 pr-6  rounded-full text-lg font-medium transition-colors">
                                     <div className="p-2 bg-white rounded-full flex items-center justify-center">
@@ -247,7 +260,7 @@ const sdeCalcu = () => {
 
                             <div className='relative  flex justify-center items-center h-48 sm:h-64 md:h-80 lg:h-[30rem] bg-[#eef3f6] max-w-4xl mx-auto mt-10  rounded-lg'>
 
-                                <Image src={checklist} height={250} width={250} alt="play video image" />
+                                <Image src={pc} height={250} width={250} alt="play video image" />
 
 
                                 <button className="absolute bottom-5 right-5 shrink-0 flex items-center gap-2 bg-ar-gray-600 hover:bg-gray-800 text-white p-1.5 pr-6  rounded-full text-lg font-medium transition-colors">

@@ -68,8 +68,8 @@ const OperatorIdentity = () => {
 
             <header className={`bg-white font-nunito-sans sm:sticky sm:top-0 left-0 w-full z-40`}>
                 <div className="sm:max-w-5xl w-full mx-auto">
-                    <div className={`text-[#222222] flex items-center justify-between transition-all duration-300 ${isScrolled ? "lg:px-3 pt-3" : "lg:px-10 pt-10"} p-4`}>
-                        <Link href="/" className="flex items-center py2 text-3xl md:text-4xl z-50">
+                    <div className={`text-[#222222] flex items-center justify-between transition-all duration-300 lg:pt-10 px-10 p-2`}>
+                        <Link href="/" className="flex items-center py-2 text-3xl md:text-4xl z-50">
                             <span className='font-bold'>Acquire</span>Right
                         </Link>
 
