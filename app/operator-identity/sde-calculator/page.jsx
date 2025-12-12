@@ -155,7 +155,7 @@ const sdeCalcu = () => {
                         SDE Calculator
                     </h1>
 
-                    <Image src={sandTimerPng} alt='sandTimer' className='absolute right-20 top-54' />
+                    <Image src={sandTimerPng} alt='sandTimer' className='absolute right-12 top-54' />
 
                     <div className="space-y-12 text-ar-gray-700">
 
