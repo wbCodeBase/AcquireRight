@@ -12,7 +12,7 @@ const HeaderBase = () => {
     return (
         <>
             <section>
-                <div className="max-w-5xl mx-auto p-6 sm:p-8 lg:p-12 px-4 sm:px-6 lg:px-8">
+                <div className="max-w-6xl mx-auto p-6 sm:p-8 lg:p-12 px-4 sm:px-6 lg:px-8">
 
                     <div className='font-semibold text-xl sm:text-xl lg:text-2xl text-ar-gray-900 flex items-center gap-2 mb-2 sm:mb-0'>
                         AcquireRight <IoIosArrowForward className="text-lg sm:text-xl lg:text-2xl" />
@@ -38,7 +38,7 @@ const HeaderBase = () => {
             </section>
 
             <section className="bg-gradient-to-r relative from-[#b1d8ef] via-[#b1d8ef] to-[#a2c3df]">
-                <div className="max-w-5xl mx-auto p-6 sm:p-10 lg:p-20 px-4 sm:px-6 lg:px-8">
+                <div className="max-w-6xl mx-auto p-6 sm:p-10 lg:p-20 px-4 sm:px-6 lg:px-8">
 
                     <div className='font-bold z-10 text-xl sm:text-xl lg:text-2xl text-ar-gray-700 flex items-center gap-2 mb-6 sm:mb-6 lg:mb-4 font-lora'>
                         What's inside the system

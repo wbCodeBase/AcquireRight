@@ -18,7 +18,7 @@ const HeroSection = () => {
   return (
     <>
       <section className="bg-gradient-to-r from-[#fffafa] to-[#e8e0e0] text-white">
-        <div className="container mx-auto sm:max-w-5xl py-8 sm:py-12 md:py-16">
+        <div className="container mx-auto sm:max-w-6xl py-8 sm:py-12 md:py-16">
           <div className="flex flex-col lg:flex-row items-center justify-between">
 
             {/* Text Content */}
