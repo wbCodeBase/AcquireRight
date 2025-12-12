@@ -63,7 +63,7 @@ export default function ThirdSection() {
 
   return (
     <main className="min-h-screen bg-ar-light-azure px-4 py-12 md:px-8 md:py-10">
-      <div className="max-w-6xl sm:px-12 mx-auto">
+      <div className="max-w-6xl sm:px-14 mx-auto">
 
         <div className="text-center my-8 md:mb-12 text-ar-gray-700">
           <h2 className="text-2xl md:text-3xl md:font-bold font-medium mb-3 font-lora text-balance">

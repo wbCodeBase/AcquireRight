@@ -18,8 +18,8 @@ const HeroSection = () => {
   return (
     <>
       <section className="bg-gradient-to-r from-[#fffafa] to-[#e8e0e0] text-white">
-        <div className="container mx-auto sm:max-w-6xl py-8 sm:py-12 md:py-16">
-          <div className="flex flex-col lg:flex-row items-center justify-between">
+        <div className="container mx-auto sm:max-w-6xl py-8 sm:py-16 md:py-26">
+          <div className="flex flex-col lg:flex-row gap-10 items-center justify-between">
 
             {/* Text Content */}
             <div className="w-full px-4 sm:px-6 lg:px-8">
@@ -29,6 +29,7 @@ const HeroSection = () => {
 
               </div>
             </div>
+
 
             {/* Image Content */}
             <div className="w-full sm:w-10/12 md:w-8/12 px-4 sm:px-6 lg:px-8">
